@@ -5,6 +5,10 @@ app.get('/', (req, res) => {
   res.send('app works!');
 });
 
-app.listen(80, () => {
-  console.log('app up and running on port 80');
-});
+const server = app.listen(
+  process.env.PORT || 8080,
+  () => {
+    var port = server.address().port;
+    console.log('App now running on port', port);
+  }
+);
