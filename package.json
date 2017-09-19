@@ -6,11 +6,15 @@
     "https://github.com/klauszhang/shard-share",
   "author": "hao <klaushaozhang@gmial.com>",
   "license": "MIT",
+
+  "scripts": {
+    "start": "node src/server/index.js"
+  },
+  "engines": {
+    "node": "8.2.1"
+  },
   "dependencies": {
     "express": "^4.15.4",
     "mongodb": "^2.2.31"
-  },
-  "scripts": {
-    "start": "node src/server/index.js"
   }
 }
