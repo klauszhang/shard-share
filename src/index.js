@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('app works!');
+  res.send(`${process.env.STH}!`);
 });
 
 const server = app.listen(
