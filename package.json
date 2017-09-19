@@ -1,5 +1,15 @@
 {
+  "name": "shard-share",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository":
+    "https://github.com/klauszhang/shard-share",
+  "author": "hao <klaushaozhang@gmial.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.4"
+  },
+  "scripts": {
+    "start": "node src/index.js"
   }
 }
