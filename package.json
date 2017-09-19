@@ -1,15 +1,16 @@
 {
   "name": "shard-share",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/server/index.js",
   "repository":
     "https://github.com/klauszhang/shard-share",
   "author": "hao <klaushaozhang@gmial.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/server/index.js"
   }
 }
